@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/243c8e69c8.js" crossorigin="anonymous"></script>
+    
     <title>Document</title>
 </head>
 <body>
-    <header id="header">
+    <div id="header">
         <h1>우리는 그 실패의 경험으로부터 더 강해졌다고 생각합니다.</h1>
+    </div>
+    <div id="contact">
+        <hr>
         <p>박기태 
             <i class="fa-solid fa-envelope"></i>
             <i class="fa-brands fa-github"></i>
-        <hr>
         Web Developer
         <hr>
-    </header>
+    </div>
     <main>
         <article id="mainLeft">
             <section>
@@ -37,8 +40,22 @@
                 <h2>WORK EXPERIENCE</h2>
             </section>
         </article>
-    </main>
-    
-    
+    </main>   
+    <script>
+        let observer = new IntersectionObserver((e)=>{
+            e.forEach((box)=>{
+                if(box.isIntersecting){
+                    box.target.style.opacity = 1;
+                }
+            })
+
+        })
+
+        let div = document.querySelectorAll('div')
+        observer.observe(div[0])
+        observer.observe(div[1])
+        observer.observe(div[2])
+        observer.observe(div[3])
+    </script>
 </body>
 </html>
