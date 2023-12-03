@@ -9,13 +9,16 @@ body {
 }
 body #header,#contact{
     background-color: black;
-    height: 1500px;
+    height: 1000px;
     color: white;
     text-align: center;
     opacity: 0;
     transition: all 0.5s;;
 }
 body #header h1{
+    padding-top: 400px;
+}
+body #contact p{
     padding-top: 400px;
 }
 
@@ -67,4 +70,17 @@ i {
 
 #mainLeft {
     border-right: 1px solid lightgray;
+}
+
+#contact .photoFrame{
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%;
+    overflow: hidden;
+    text-align: center;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
