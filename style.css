@@ -55,6 +55,11 @@ body #contact span div{
 body #contact span h2{
     margin-bottom: 1px;   
 }
+body .education{
+    height: 1800px;
+    opacity: 0;
+    transition: all 0.5s;
+}
 
 body .education h1{
     text-align: left;
