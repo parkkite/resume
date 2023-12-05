@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 body {
-    width: 80%;
+    width: 100%;
     height: 6000px;
     margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
     font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
 body #header{
+    margin: auto;
+    width: 80%;
     background-color: black;
     height: 1200px;
     color: white;
@@ -16,7 +18,8 @@ body #header{
     transition: all 0.5s;
 }
 body #header h1{
-    padding-top: 400px;
+    padding-top: 450px;
+    font-size: 40px;
 }
 body #contact{
     height: 1200px;
@@ -48,7 +51,14 @@ body #contact .photoFrame{
     height: 100%;
     object-fit: cover;
 }
-
+body #contact .about{
+    padding: 50px; 
+    font-size: x-large; 
+    font-weight: bolder;
+}
+body #contact div p{
+    text-align: center;
+}
 body #contact span div{
     width: 1000px;
     text-align: left;
@@ -56,7 +66,11 @@ body #contact span div{
 body #contact span h2{
     margin-bottom: 1px;   
 }
+
+
 body .education{
+    margin: auto;
+    width: 100%;
     height: 1800px;
     opacity: 0;
     transition: all 0.5s;
