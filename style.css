@@ -152,13 +152,13 @@ body .career .career1,.career2{
 
 }
 body .career .career1 .ca11{
-    padding-left: 110px;
+    padding-left: 50%;
     padding-right: 110px; 
     float: right; 
     border-left: 2px solid;
 }
 body .career .career2 .ca21{
-    padding-left: 100px; 
+    padding-left: 50%; 
     float: right; 
     border-left: 2px solid;
 }
