@@ -172,6 +172,8 @@ body .career .career1,.career2{
     width: 100%;
 }
 body .career .career1 .ca11{
+    display: flex;
+    flex-direction: column;
     margin-left: 40%;
     padding-left: 5%;
     float: right; 
@@ -184,7 +186,7 @@ body .career .career2 .we{
 }
 body .career .career2 .ca21,.ca22,.ca23,.ca24{
     margin-left: 40%;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
     padding-left: 5%;
     float: right; 
     border-left: 2px solid;
