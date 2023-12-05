@@ -139,10 +139,10 @@ body .skills .soft {
 }
 body .skills .hard {
     display: flex;
-    text-align: center;
 }
 body .skills .hard span{
     margin: 20px;
+    text-align: center;
     font-size: x-large;
     font-weight: bolder;
     text-decoration: underline;
