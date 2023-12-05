@@ -153,7 +153,9 @@ body .skills p{
 }
 
 body .career{
-    height: 1800px;
+    width: 80%;
+    margin: auto;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     opacity: 0;
@@ -168,19 +170,22 @@ body .career h1{
 
 body .career .career1,.career2{
     width: 100%;
-    margin-left:10%;
-
 }
 body .career .career1 .ca11{
-    padding-left: 50%;
-    padding-right: 110px; 
+    margin-left: 40%;
+    padding-left: 5%;
     float: right; 
     border-left: 2px solid;
 }
+body .career .career2 .we{
+   display: flex;
+   flex-direction: column;
+   
+}
 body .career .career2 .ca21,.ca22,.ca23,.ca24{
-    padding-left: 50%;
-    padding-right: 110px; 
+    margin-left: 40%;
+    margin-bottom: 15%;
+    padding-left: 5%;
     float: right; 
     border-left: 2px solid;
-    height: 500px;
 }
