@@ -98,4 +98,67 @@ body .education .study h2{
     text-align: left;
     padding-bottom: -px;
 }
+body .skills{
+    height: 1200px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+body .skills h1{
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+body .skills i {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+body .skills .soft {
+    text-align: center;
+}
+body .skills .hard {
+    
+    margin-left: 100px;
+    float:center;
+}
+body .skills .hard span{
+    margin: 25px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
 
+body .skills p{
+    text-align: center;
+}
+
+body .career{
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+body .career h1{
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+
+body .career .career1,.career2{
+    width: 100%;
+    margin-left:10%;
+
+}
+body .career .career1 .ca11{
+    padding-left: 110px;
+    padding-right: 110px; 
+    float: right; 
+    border-left: 2px solid;
+}
+body .career .career2 .ca21{
+    padding-left: 100px; 
+    float: right; 
+    border-left: 2px solid;
+}
