@@ -159,7 +159,8 @@ body .career .career1 .ca11{
     border-left: 2px solid;
 }
 body .career .career2 .ca21,.ca22,.ca23,.ca24{
-    padding-left: 50%; 
+    padding-left: 50%;
+    padding-right: 110px; 
     float: right; 
     border-left: 2px solid;
     height: 500px;
