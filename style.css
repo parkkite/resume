@@ -171,9 +171,11 @@ body .career h1{
 body .career .career1,.career2{
     width: 100%;
 }
-body .career .career1 .ca11{
+body .career .career1 .we{
     display: flex;
     flex-direction: column;
+}
+body .career .career1 .ca11{
     margin-left: 40%;
     padding-left: 5%;
     float: right; 
