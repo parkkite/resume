@@ -9,7 +9,7 @@ body {
 }
 body #header{
     margin: auto;
-    width: 80%;
+    width: 100%;
     background-color: black;
     height: 1200px;
     color: white;
@@ -192,4 +192,13 @@ body .career .career2 .ca21,.ca22,.ca23,.ca24{
     padding-left: 5%;
     float: right; 
     border-left: 2px solid;
+}
+body .thk{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 1000px;
+    text-align: center;
+
 }
