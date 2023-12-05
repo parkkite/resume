@@ -116,6 +116,8 @@ body .education .study h2{
     padding-bottom: -px;
 }
 body .skills{
+    margin: auto;
+    width: 80%;
     height: 1200px;
     opacity: 0;
     transition: all 0.5s;
@@ -125,8 +127,10 @@ body .skills h1{
     font-size: 50px;
     margin-bottom: 150px;
 }
+body .skills h2{
+    font-size: 30px;
+}
 body .skills i {
-    margin-left: 50px;
     margin-right: 10px;
     margin-bottom: 50px;
 }
@@ -134,12 +138,11 @@ body .skills .soft {
     text-align: center;
 }
 body .skills .hard {
-    
-    margin-left: 100px;
-    float:center;
+    display: flex;
+    text-align: center;
 }
 body .skills .hard span{
-    margin: 25px;
+    margin: 20px;
     font-size: x-large;
     font-weight: bolder;
     text-decoration: underline;
