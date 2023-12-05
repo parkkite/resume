@@ -71,7 +71,7 @@ body #contact span h2{
 
 body .education{
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: 1800px;
     opacity: 0;
     transition: all 0.5s;
@@ -85,9 +85,10 @@ body .education h1{
 
 body .education .edu1,.edu2{
     margin-left: 10px;
-    padding: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
     background: #fff;
-    width: 50%;
+    width: 100%;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.12);
 }
 body .education .study1,.study2,.study3,.study4{
