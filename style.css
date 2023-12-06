@@ -7,7 +7,7 @@ body {
     font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
-@media (max-width:768px){
+@media (max-width:932px){
     html body div{
         width: 100vw;
     }
