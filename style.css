@@ -208,7 +208,7 @@ body .thk h1{
 }
 
 @media (min-width:321px),(max-width:1020px){
-    html,#header,#contact{
+    html,#header,#contact,.education,.skills,.career{
         min-width: 100vw;
     }
     #header{
