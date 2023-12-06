@@ -208,9 +208,8 @@ body .thk h1{
 }
 
 @media (min-width:321px),(max-width:1020px){
-    html{
+    html,#header,#contact{
         min-width: 100vw;
-        touch-action: none;
     }
     #header{
         margin: auto;
