@@ -7,22 +7,8 @@ body {
     font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
-@media only screen and (min-divice-width:320px)and(max-divice-width:932px){
-    html body div{
-        width: 100vw;
-    }
-    
-}
-@media (max-width:932px){
-    body {
-        width: 100vw;
-        height: 6000px;
-        margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
-        font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
-        font-size:14px;     /* 글자 크기 */
-    }
-}
-body #header{
+
+#header{
     margin: auto;
     width: 100%;
     background-color: black;
@@ -32,11 +18,11 @@ body #header{
     opacity: 0;
     transition: all 0.5s;
 }
-@media (max-width:932px){
-    body #header{
+@media (min-width:320px)and(max-width:932px){
+    #header{
         margin: auto;
-        width: 100vw;
-        background-color: black;
+        width: 100%;
+        background-color: blue;
         height: 1200px;
         color: white;
         text-align: center;
@@ -57,16 +43,7 @@ body #contact{
     opacity: 0;
     transition: all 0.5s;
 }
-@media (max-width:932px){
-    body #contact{
-        width: 100vw;
-        height: 1200px;
-        margin: auto;
-        text-align: center;
-        opacity: 0;
-        transition: all 0.5s;
-    }
-}
+
 body #contact h1{
     text-align: left;
     font-size: 50px;
