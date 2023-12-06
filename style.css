@@ -7,6 +7,15 @@ body {
     font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
+@media (max-width:768px){
+    body {
+        width: 100%;
+        height: 6000px;
+        margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
+        font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
+        font-size:14px;     /* 글자 크기 */
+    }
+}
 body #header{
     margin: auto;
     width: 100%;
@@ -16,6 +25,18 @@ body #header{
     text-align: center;
     opacity: 0;
     transition: all 0.5s;
+}
+@media (max-width:768px){
+    body #header{
+        margin: auto;
+        width: 100%;
+        background-color: black;
+        height: 1200px;
+        color: white;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.5s;
+    }
 }
 
 body #header h1{
@@ -205,73 +226,3 @@ body .thk h1{
     font-size: 60px;
 }
 
-@media (max-width:768px){
-    body {
-        width: 100%;
-        height: 6000px;
-        margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
-        font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
-        font-size:14px;     /* 글자 크기 */
-    }
-    body #header{
-        margin: auto;
-        width: 100%;
-        background-color: black;
-        height: 1200px;
-        color: white;
-        text-align: center;
-        opacity: 0;
-        transition: all 0.5s;
-    }
-    
-    body #header h1{
-        padding-top: 450px;
-        font-size: 40px;
-    }
-    body #contact{
-        width: 80%;
-        height: 1200px;
-        margin: auto;
-        text-align: center;
-        opacity: 0;
-        transition: all 0.5s;
-    }
-    body #contact h1{
-        text-align: left;
-        font-size: 50px;
-        margin-bottom: 150px;
-    }
-    
-    body #contact .photoFrame{
-        width: 250px;
-        height: 300px; 
-        border-radius: 70%;
-        overflow: hidden;
-        margin-left: 100px;
-        margin-right: 50px;
-        display:inline-block;
-        float: left;
-        opacity: 0;
-        transition: all 0.5s;
-    }
-    .photo{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    body #contact .about{
-        padding: 50px; 
-        font-size: x-large; 
-        font-weight: bolder;
-    }
-    body #contact div p{
-        text-align: center;
-    }
-    body #contact span div{
-        width: 1000px;
-        text-align: left;
-    }
-    body #contact span h2{
-        margin-bottom: 1px;   
-    }
-}
