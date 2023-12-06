@@ -57,6 +57,16 @@ body #contact{
     opacity: 0;
     transition: all 0.5s;
 }
+@media (max-width:768px){
+    body #contact{
+        width: 100vw;
+        height: 1200px;
+        margin: auto;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+}
 body #contact h1{
     text-align: left;
     font-size: 50px;
