@@ -207,9 +207,9 @@ body .thk h1{
     font-size: 60px;
 }
 
-@media (min-width:320px){
+@media (min-width:321px){
     html{
-        max-width: 100vw;
+        min-width: 100vw;
     }
     #header{
         margin: auto;
