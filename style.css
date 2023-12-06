@@ -13,7 +13,7 @@ body {
     }
     
 }
-@media (max-width:768px){
+@media (max-width:932px){
     body {
         width: 100vw;
         height: 6000px;
@@ -32,7 +32,7 @@ body #header{
     opacity: 0;
     transition: all 0.5s;
 }
-@media (max-width:768px){
+@media (max-width:932px){
     body #header{
         margin: auto;
         width: 100vw;
@@ -57,7 +57,7 @@ body #contact{
     opacity: 0;
     transition: all 0.5s;
 }
-@media (max-width:768px){
+@media (max-width:932px){
     body #contact{
         width: 100vw;
         height: 1200px;
