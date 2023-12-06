@@ -30,7 +30,7 @@ body #header{
     body #header{
         margin: auto;
         width: 100%;
-        background-color: black;
+        background-color: red;
         height: 1200px;
         color: white;
         text-align: center;
