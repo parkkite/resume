@@ -207,7 +207,7 @@ body .thk h1{
     font-size: 60px;
 }
 
-@media (min-width:321px){
+@media (min-width:321px),(max-width:1020px){
     html{
         min-width: 100vw;
     }
