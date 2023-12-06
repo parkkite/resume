@@ -17,11 +17,7 @@ body #header{
     opacity: 0;
     transition: all 0.5s;
 }
-@media (max-width:768px){
-    body #header{
-       background-color: blue;
-    }   
-   }
+
 body #header h1{
     padding-top: 450px;
     font-size: 40px;
@@ -208,3 +204,9 @@ body .thk h1{
     text-align: center;
     font-size: 60px;
 }
+
+@media (max-width:768px){
+    body #header{
+       background-color: blue;
+    }   
+   }
