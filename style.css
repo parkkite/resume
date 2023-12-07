@@ -211,6 +211,7 @@ body .thk h1{
     html,#header,#contact,.education,.skills,.career{
         width: 100vw;
         min-width: 100vw;
+        font-family: "Noto Sans KR", "Nanum Square"; 
     }
     #header{
         margin: auto;
