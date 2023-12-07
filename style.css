@@ -230,6 +230,9 @@ body .thk h1{
     }
     body #header h1{
         padding-top: 450px;
-        font-size: 2em;
+        font-size: 1em;
+    }
+    body #contact h1{
+        font-size: 1em;
     }
 }
