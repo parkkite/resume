@@ -223,6 +223,7 @@ body .thk h1{
         transition: all 0.5s;
     }
     body #header h1{
+        margin: auto;
         font-size: 1em;
     }
     body #contact h1{
