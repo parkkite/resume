@@ -39,9 +39,8 @@ body #contact h1{
 }
 
 body #contact .photoFrame{
-    width: 250px;
-    height: 300px; 
-    border-radius: 70%;
+    width:30vw;
+    height: 57vw; 
     overflow: hidden;
     margin-left: 100px;
     margin-right: 50px;
@@ -61,6 +60,7 @@ body #contact .about{
     font-weight: bolder;
 }
 body #contact div p{
+    float: right;
     text-align: center;
 }
 body #contact span div{
@@ -207,7 +207,7 @@ body .thk h1{
     font-size: 60px;
 }
 
-@media (min-width:321px),(max-width:1020px){
+@media (max-width:768px){
     html,#header,#contact,.education,.skills,.career{
         min-width: 100vw;
     }
