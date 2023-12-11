@@ -243,8 +243,8 @@ body .thk h1{
         /* margin-left: 5%; */
         /* margin-left: 100px;
         margin-right: 50px; */
-        display:inline-block;
-        float: left;
+        /* display:inline-block; */
+        /* float: left; */
         opacity: 0;
         transition: all 0.5s;
     }
@@ -301,7 +301,7 @@ body .thk h1{
     }
     body .education .edu h1{
         text-align: left;
-        font-size: 1.6em;
+        font-size: 1.5em;
         margin-bottom: auto;
     }
     body .education .edu h2{
@@ -314,7 +314,7 @@ body .thk h1{
     }
     body .education .study h1{
         text-align: left;
-        font-size: 1.6em;
+        font-size: 1.5em;
         margin-top: -10px;
         margin-bottom: auto;
     }
