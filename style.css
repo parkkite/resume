@@ -249,9 +249,8 @@ body .thk h1{
         transition: all 0.5s;
     }
     body #contact span div{
-        margin-left: -25%;
-        /* justify-content: center; */
-        align-items: center;
+        margin-left: 25%;
+        float: left;
         display: flex;
         flex-direction: column;
     }
@@ -264,7 +263,7 @@ body .thk h1{
         margin-bottom: 50%;
     }
     body #contact .about p{ 
-        
+        margin-left: 10%;
         /* margin: auto; */
         text-align: center;
     }
@@ -343,7 +342,7 @@ body .thk h1{
         font-size: 2em;
     }
     body .skills h3{
-        font-size: 1.0em;
+        font-size: 0.8em;
     }
     body .skills i {
         margin-right: 10px;
