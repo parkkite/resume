@@ -250,7 +250,7 @@ body .thk h1{
     }
     body #contact span div{
         margin-left: -25%;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -362,6 +362,7 @@ body .thk h1{
         font-size: 1.3em;
         font-weight: bolder;
         text-decoration: underline;
+        margin-bottom: 10%;
     }
     
     body .skills p{
@@ -394,7 +395,7 @@ body .thk h1{
         flex-direction: column;
     }
     body .career .career1 .ca11{
-        margin-left: 40%;
+        margin-left: 25%;
         padding-left: 7%;
         float: right; 
         border-left: 2px solid;
@@ -408,7 +409,7 @@ body .thk h1{
         font-size: 1.4em;
     }
     body .career .career2 .ca21,.ca22,.ca23,.ca24{
-        margin-left: 40%;
+        margin-left: 25%;
         margin-bottom: 7%;
         padding-left: 5%;
         padding-right: 0.2%;
