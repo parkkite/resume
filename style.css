@@ -242,7 +242,6 @@ body .thk h1{
         width:60vw;
         height: 50vh; 
         overflow: hidden;
-        margin: auto;
         /* margin-left: 5%; */
         /* margin-left: 100px;
         margin-right: 50px; */
@@ -251,24 +250,29 @@ body .thk h1{
         opacity: 0;
         transition: all 0.5s;
     }
-    body #contact span div{
-        margin-left: 25%;
+    body #contact div {
+        margin: auto;
+    }
+    body #contact span {
+        margin: auto;
+        margin-left: 20%;
         float: left;
         display: flex;
         flex-direction: column;
     }
-    body #contact h2{
-        font-size: 1.3em;
+    body #contact span h2{
+        font-size: 1.5em;
+        text-align: center;
     }
     body #contact .about{ 
-        
-        font-size: 1.0em; 
+        margin-left: 7%;
+        font-size: 1.2em; 
         font-weight: bolder;
         margin-bottom: 50%;
     }
     body #contact .about p{         
+        width: 100vw;
         margin: auto;
-        float: left;
         text-align: center;
     }
 
