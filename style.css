@@ -4,7 +4,7 @@ body {
     width: 100%;
     height: 6000px;
     margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
-    font-family: "Noto Sans KR", "Nanum Square";        /* 글꼴 - 웹 폰트 */
+    font-family: "Noto Sans KR", "Noto Serif KR";       /* 글꼴 - 웹 폰트*/
     font-size:14px;     /* 글자 크기 */
 }
 
@@ -30,6 +30,8 @@ body #contact{
     text-align: center;
     opacity: 0;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
 }
 
 body #contact h1{
@@ -39,8 +41,8 @@ body #contact h1{
 }
 
 body #contact .photoFrame{
-    width:30vw;
-    height: 35vw; 
+    width:20vw;
+    height: 50vh; 
     overflow: hidden;
     margin-left: 100px;
     margin-right: 50px;
@@ -55,7 +57,7 @@ body #contact .photoFrame{
     object-fit: cover;
 }
 body #contact .about{
-    padding: 50px; 
+    margin: auto;
     font-size: x-large; 
     font-weight: bolder;
 }
@@ -68,7 +70,8 @@ body #contact span div{
     text-align: left;
 }
 body #contact span h2{
-    margin-bottom: 1px;   
+    margin-bottom: 1px;
+    font-size: 2em;   
 }
 
 
@@ -211,7 +214,7 @@ body .thk h1{
     html,#header,#contact,.education,.skills,.career{
         width: 100vw;
         min-width: 100vw;
-        font-family: "Noto Sans KR", "Nanum Square"; 
+        font-family: "Noto Sans KR", "Noto Serif KR";  
     }
     #header{
         margin: auto;
@@ -236,8 +239,8 @@ body .thk h1{
         font-size: 3em;
     }
     body #contact .photoFrame{
-        width:70vw;
-        height: 80vh; 
+        width:60vw;
+        height: 50vh; 
         overflow: hidden;
         margin: auto;
         /* margin-left: 5%; */
