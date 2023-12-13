@@ -272,8 +272,8 @@ body .thk h1{
     }
     body #contact .about{ 
         margin-left: 7%;
-        font-size: 0.8em; 
-        font-weight: bolder;
+        font-size: 0.9em; 
+        /* font-weight: bolder; */
         margin-bottom: 50%;
     }
     body #contact .about p{         
