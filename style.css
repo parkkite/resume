@@ -7,6 +7,12 @@ body {
     font-family: "Noto Sans KR", "Noto Serif KR";       /* 글꼴 - 웹 폰트*/
     font-size:14px;     /* 글자 크기 */
 }
+.text::after {
+    content: '';
+    margin-left: .4rem;
+    border-right: 2px solid #777;
+    animation: cursor .9s infinite steps(2);
+  }
 
 #header{
     margin: auto;
@@ -266,7 +272,7 @@ body .thk h1{
     }
     body #contact .about{ 
         margin-left: 7%;
-        font-size: 1.2em; 
+        font-size: 1.5em; 
         font-weight: bolder;
         margin-bottom: 50%;
     }
