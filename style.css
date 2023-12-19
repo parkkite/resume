@@ -47,8 +47,8 @@ body #contact h1{
 }
 
 body #contact .photoFrame{
-    width:20vw;
-    height: 50vh; 
+    width:17vw;
+    height: 48vh; 
     overflow: hidden;
     margin-left: 100px;
     margin-right: 50px;
@@ -246,7 +246,7 @@ body .thk h1{
     }
     body #contact .photoFrame{
         width:60vw;
-        height: 50vh; 
+        height: 45vh; 
         overflow: hidden;
         /* margin-left: 5%; */
         /* margin-left: 100px;
@@ -267,8 +267,9 @@ body .thk h1{
         flex-direction: column;
     }
     body #contact span h2{
+        margin-left: 1em;
         font-size: 1.5em;
-        text-align: center;
+        text-align: left;
     }
     body #contact .about{ 
         margin-left: 7%;
