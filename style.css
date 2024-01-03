@@ -136,6 +136,10 @@ body {
     color: darkgray;
     margin-top: -5%;
 }
+.workExp .company .workPeriod2{
+    font-size: 1.5rem;
+    color: darkgray;
+}
 .line {
     border-left : thick solid #32a1ce;
     height : 100%;
@@ -168,4 +172,198 @@ body {
     color: dimgray;
     margin-top: 5%;
     margin-left: 10%;
+}
+
+@media (max-width:768px){
+
+    
+    body {
+        width: 70%;
+        height: 1100vh;
+        margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
+        /* font-family: "Noto Sans KR", "Noto Serif KR";       글꼴 - 웹 폰트 */
+        font-family:
+            Pretendard,
+            -apple-system,
+            BlinkMacSystemFont,
+            Bazier Square,
+            Noto Sans KR,
+            Segoe UI,
+            Apple SD Gothic Neo,
+            Roboto,
+            Helvetica Neue,
+            Arial,
+            sans-serif,
+            Apple Color Emoji,
+            Segoe UI Emoji,
+            Segoe UI Symbol,
+            Noto Color Emoji;
+        font-size:20%;     /* 글자 크기 */
+    }
+
+    .title {
+        margin: auto;
+        width: 120%;
+        height: 25vh;
+        color: dodgerblue;
+        font-size: 1.65rem;
+        margin-bottom: 20vh;
+    }
+
+    .middle-tilte {
+        font-size: 2.5rem;
+        color: darkgray;
+        margin-bottom: 20vh;
+    }
+    .low-tilte {
+        font-size: 2rem;
+        color: darkgray;
+        margin-bottom: 10vh;
+    }
+
+    .myIntroduce .photo{  
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .myIntroduce .profile {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
+    .myIntroduce .profile .contact{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        font-size: 1.1rem;
+        font-weight: bold;  
+    }
+    .myIntroduce .about{
+        margin: auto;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: left;  
+        color: black;
+        margin-bottom: 12vh;
+    }
+    
+    .myIntroduce .keywords dt{
+        margin: auto;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: dodgerblue;
+        margin-bottom: 3vh;
+    }
+    .myIntroduce .keywords dd{
+        margin: auto;
+        font-size: 1.3rem;
+        color: black;
+        margin-bottom: 5vh;
+    }
+    .education .edu1 dt span{ 
+        display: flex;
+        align-items: center; 
+        padding: 0;
+        margin: 0;
+        width: 85vw;
+    }
+    .education .edu1 .period{    
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: grey;
+        margin-bottom: 1vh;
+    }
+    .education .edu1 .eduNm{    
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: black;
+        margin-right: 20vw;
+        padding-bottom: 0;
+    }
+    .education .edu1 .agency{    
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: grey;
+        padding-bottom: 1vh;
+    }
+    .skill {    
+        margin-bottom: 30vh;
+    }
+    .skill .hard {    
+        margin-bottom: 10vh;
+    }
+    .skill .hard dl dt{    
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .skill .hard .item{    
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: dodgerblue;
+        padding-bottom: 0;
+    }
+    .skill .hard .detail{    
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: black;
+        margin-left: 3%;
+        padding-bottom: 30%;
+    }
+    .skill .soft .detail{    
+        font-size: 1rem;
+        font-weight: 700;
+        color: black;
+        margin-left: 3%;
+        width: 71vw;
+    }
+    .workExp .company{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        color: black;
+        font-weight: 600;
+    }
+    .workExp .company .workPeriod{
+        font-size: 1.5rem;
+        color: darkgray;
+        margin-top: 5%;
+    }
+    .workExp .company .workPeriod2{
+        font-size: 1.5rem;
+        color: darkgray;
+    }
+    .line {
+        border-left : thick solid #32a1ce;
+        height : 100%;
+        margin-left: 10%;
+    }
+    .workExp .project {
+        margin-left: 7%;
+        margin-bottom: 10%;
+        font-weight: 600;
+    
+    }
+    .workExp .project .pjNm {
+        font-size: 1.5rem;
+        color: black;
+    }
+    .workExp .project .pjperiod {
+        font-size: 1rem;
+        color: darkgray;
+    }
+    .workExp .project .pjRole {
+        font-size: 1rem;
+        color: black;
+    }
+    .workExp .project .pjSkill {
+        font-size: 1rem;
+        color: black;
+    }
+    .workExp .project .pjContents {
+        font-size: 1rem;
+        color: dimgray;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 }
