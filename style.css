@@ -1,177 +1,365 @@
 
-body {
-    width: 70%;
-    height: 800vh;
-    margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
-    /* font-family: "Noto Sans KR", "Noto Serif KR";       글꼴 - 웹 폰트 */
-    font-family:
-        Pretendard,
-        -apple-system,
-        BlinkMacSystemFont,
-        Bazier Square,
-        Noto Sans KR,
-        Segoe UI,
-        Apple SD Gothic Neo,
-        Roboto,
-        Helvetica Neue,
-        Arial,
-        sans-serif,
-        Apple Color Emoji,
-        Segoe UI Emoji,
-        Segoe UI Symbol,
-        Noto Color Emoji;
-    font-size:30%;     /* 글자 크기 */
+[data-scroll] {
+    opacity: 0;
+    will-change: trasform, scale, opacity;
+    transform: translateY(6rem) scale(0.93);
+    transition: all 1.5s cubic-bezier(0.165,0.84,0.44,1);
 }
 
-.title {
-    margin: auto;
+[data-scroll='in'] {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+[data-scroll='out'] {
+    opacity: 0;
+}
+
+html {
+    background-color: #5DADE2;
     width: 100%;
-    height: 25vh;
-    color: dodgerblue;
-    font-size: 2.4rem;
+    font-family:
+    NanumSquare,
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    Bazier Square,
+    Noto Sans KR,
+    Segoe UI,
+    Apple SD Gothic Neo,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
 }
-.middle-tilte {
-    font-size: 3rem;
-    color: darkgray;
-    margin-bottom: 20vh;
-}
-.low-tilte {
-    font-size: 2rem;
-    color: darkgray;
-    margin-bottom: 10vh;
+html section {
+    background-color: white;
+    margin: auto;
+    width: 70vw;
+    height: 180vh;
+    border-radius: 1%;
 }
 
-.myIntroduce .photo{  
-    width: 20vw;
-    height: 30vh;
+
+/* 메인페이지 */
+.title {
+    background-color: #5DADE2;
+    width: 70vw;
+    height: 100vh;
+}
+.title h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
 }
 
-.myIntroduce .profile {
-    display: flex;
-    margin-bottom: 10vh;
+/* section1 프로필  */
+.profile h1{
+    color: #5DADE2;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom:2%;
 }
-.myIntroduce .profile .contact{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    font-size: 1.6vw;
-    font-weight: bold;  
+.profile img{
+    float: left;
+    height: 28vh;
+    padding: 5% 5%;
 }
-.myIntroduce .about{
-    margin: auto;
-    font-size: 1.7rem;
-    font-weight: 700;
-    text-align: center;  
+.profile a,a:link, a:visited{
+    text-decoration: none;
     color: black;
-    margin-bottom: 12vh;
+}
+.profile .profileDetail{
+    flex-direction: row;
+    margin-top: 7%;
+}
+/* .profileTitle {
+    margin-top: 27px;
+} */
+
+
+/* contact / workExperience 영역 */
+.profile .profileDetail .profile2{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.profile .profileDetail .workExp{
+    float: right;
+    text-align: center;
+    width: 50%;
 }
 
-.myIntroduce .keywords dt{
+/* 기본정보  */
+.info p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+/* 타이틀 */
+.profile .profileDetail .profile2 h1{
+    font-size: 3rem;
+}
+.profile .profileDetail .workExp h1{
+    font-size: 3rem;
+}
+
+/* 타임라인  */
+.line {
+    position: relative;
+    border-left : thick solid #32a1ce;
+    height : 30%;
+    margin-left: 20%;
+}
+.eve {
+        position: relative;
+        margin-bottom: 20px; /* 이벤트 간 간격 */
+        
+}
+
+.circle1, .circle2, .circle3 {
+    width: 0.5vw;
+    height: 10px;
+    background-color: #fff; /* 동그라미 배경색 */
+    border: 5px solid #32a1ce; /* 동그라미 테두리 */
+    border-radius: 50%;
+    position: absolute;
+    left: -2.5%; /* 타임라인 선과 중앙 정렬 */
+    top: 0;
+}
+
+
+/* workExp 회사명 기간 */
+.expTitle {
+    font-size: 1.8rem;
+    color: #32a1ce;
+    font-weight: bold;
+    text-align: left;
+}
+.expPriod {
+    font-size: 1.3rem;
+    color: darkgray;
+    font-weight: bold;
+}
+
+
+/* about me */
+.about h1{
+    font-size: 3rem;
+}
+.about img {
+    height: 5rem;
+    padding: 0;
+    margin-left: 20%;
+}
+
+.about .aboutTable {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* education */
+.edu h1{
+    padding-top: 12%;
+}
+
+.skill h1 {
+    padding-top: 5%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color: #32a1ce;
+}
+.skill p {
+    font-size: 1.5rem;
+    padding-left: 20%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+.skill .hard { 
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.skill .hard .item{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #32a1ce;
+    text-align: left;
+}
+.skill .hard .detail{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+.skill .soft {
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.soft1,.soft2,.soft3,.soft4,.soft5 {
+    width: 8vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: #32a1ce;
+    border: 5px solid #32a1ce;
+    display: flex;
+    align-items: center;
+    
+}
+.soft1detail,.soft2detail,.soft3detail,.soft4detail,.soft5detail {
     margin: auto;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: white;
+}
+
+.softp{
     font-size: 1.5rem;
     font-weight: bold;
-    color: dodgerblue;
-    margin-bottom: 3vh;
-}
-.myIntroduce .keywords dd{
-    margin: auto;
-    font-size: 1.3rem;
-    color: black;
-    margin-bottom: 5vh;
 }
 
-.education .edu1 .period{    
+
+/* 프로젝트 섹션 */
+/* .project {
+    display: flex;
+    flex-direction: column;
+    
+} */
+/* .project .projectDetail{
+    display: flex;
+    
+} */
+
+.project h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color: #32a1ce;
+}
+
+.project p {
     font-size: 1.5rem;
-    font-weight: 700;
+    padding-left: 20%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    width: 60%;
+    padding-bottom: 10%;
+}
+
+.project .projectDetail {
+    margin-left: 8%;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: bold;
     color: grey;
-    margin-bottom: 1vh;
+    border: hidden 1px;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 5%;
 }
-.education .edu1 .agency{    
+
+.project .projectDetail .projectPriod{
+    float: left;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
+}
+.project .projectDetail .projectImg1{
+    width: 17vw;
     color: grey;
-    margin-left: 3%;
-    padding-bottom: 30%;
+    background-color: rgba(255, 255, 0, 0.7);
+	transition: 1s;
 }
-.education .edu1 .eduNm{    
-    font-size: 2.3rem;
-    font-weight: 700;
+
+
+.projectImg1:hover{
+    transform: translate(20px, 50px) scale(1.5);
+}
+
+
+.project .projectDetail .projectTitle{
+    font-size: 2.0rem;
+    font-weight: bold;
     color: black;
-    margin-left: 3%;
-    padding-bottom: 30%;
-}
-.skill {    
-    margin-bottom: 30vh;
-}
-.skill .hard {    
-    margin-bottom: 10vh;
-}
-.skill .hard .item{    
-    font-size: 2.3rem;
-    font-weight: 700;
-    color: dodgerblue;
-    margin-left: 3%;
-    padding-bottom: 60%;
-}
-.skill .hard .detail{    
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: black;
-    margin-left: 3%;
-    padding-bottom: 60%;
-}
-.skill .soft .detail{    
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: black;
-    margin-left: 3%;
-}
-.workExp .company{
-    font-size: 4rem;
-    color: black;
-    font-weight: 600;
-}
-.workExp .company .workPeriod{
-    font-size: 1.4rem;
-    color: darkgray;
-    margin-top: -5%;
-}
-.workExp .company .workPeriod2{
-    font-size: 1.5rem;
-    color: darkgray;
-}
-.line {
-    border-left : thick solid #32a1ce;
-    height : 100%;
-    margin-left: 30%;
-}
-.workExp .project {
-    margin-left: 7%;
-    margin-bottom: 10%;
-    font-weight: 600;
 
 }
-.workExp .project .pjNm {
-    font-size: 3rem;
-    color: black;
-}
-.workExp .project .pjperiod {
-    font-size: 2rem;
-    color: darkgray;
-}
-.workExp .project .pjRole {
-    font-size: 2rem;
-    color: black;
-}
-.workExp .project .pjSkill {
+.project .projectDetail .projectName{
+    
     font-size: 1.5rem;
+    font-weight: bold;
     color: black;
+
 }
-.workExp .project .pjContents {
+.project .projectDetail .projectSkill{
+    
     font-size: 1.3rem;
-    color: dimgray;
-    margin-top: 5%;
-    margin-left: 10%;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.project .projectDetail .projectDetail{
+    
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+
+}
+.project .projectDetail .projectIssue{
+    
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20%;
+}
+.project .projectDetail .projectIssue .Issue {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.project .projectDetail .projectResult{
+    
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20%;
+}
+.project .projectDetail .projectResult .result {
+    color: gray;
+    font-size: 1.5rem;
+}
+.project .projectDetail .projectReview{
+    
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 20%;
+}
+
+.project .projectDetail .projectReview .review {
+    color: gray;
+    font-size: 1.5rem;
 }
 
 @media (max-width:768px){
