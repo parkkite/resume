@@ -19,28 +19,13 @@ html {
     background-color: #5DADE2;
     width: 100%;
     font-family:
-    NanumSquare,
-    Pretendard,
-    -apple-system,
-    BlinkMacSystemFont,
-    Bazier Square,
-    Noto Sans KR,
-    Segoe UI,
-    Apple SD Gothic Neo,
-    Roboto,
-    Helvetica Neue,
-    Arial,
-    sans-serif,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol,
-    Noto Color Emoji;
+    "Noto Sans KR", sans-serif;
 }
 html section {
     background-color: white;
     margin: auto;
     width: 70vw;
-    height: 180vh;
+    height: 195vh;
     border-radius: 1%;
 }
 
@@ -360,6 +345,10 @@ html section {
 .project .projectDetail .projectReview .review {
     color: gray;
     font-size: 1.5rem;
+}
+
+.ednProject {
+    height: 100vh;
 }
 
 @media (max-width:768px){
